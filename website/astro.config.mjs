@@ -30,7 +30,7 @@ export default defineConfig({
     mdx(options),
     tailwind(),
   ],
-  site: `digitalsigga.github.io/strudel`,
+  site: `http://digitalsigga.github.io/strudel`,
   base: '/strudel',
 });
 
