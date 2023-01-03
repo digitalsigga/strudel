@@ -12,6 +12,6 @@
        .echo(4,1/12,.5))
 .scale(cat('D dorian','G mixolydian','C dorian','F mixolydian'))
 .legato(1)
-.slow(2)
+.slow(3)
 .note().piano()
 //.pianoroll({maxMidi:160})
