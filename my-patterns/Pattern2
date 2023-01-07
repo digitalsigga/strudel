@@ -1,0 +1,8 @@
+// Pattern2 Sigga
+//note("c3 d3 e3 f3 g3 a3 b#3").slow(4)
+stack (
+  note("c3 g3 d3 [f3 f3]*2 ~ c3 g3 d3 b#3 a3 [a3]*3 ~").slow(5).sustain(0.5).release(.5),
+  note("c1 c1 c1 c1 c1 ~ c1 c1 c1 c1 c1 c1 c1 ~").slow(5).delay(.25).room("<.6 .8 1>"),
+  note("d1 d1 d1 d1 d1 ~ d1 d1 d1 d1 d1 d1 d1 ~").slow(5).delay(.25).room("<.6 .8 1>"),
+  note("g1 g1 g1 g1 g1 ~ g1 g1 g1 g1 g1 g1 g1 ~").slow(5).delay(.25).room("<.6 .8 1>")  
+)
