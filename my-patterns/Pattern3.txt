@@ -1,0 +1,6 @@
+// Pattern3 Sigga
+//note("c3 d3 e3 f3 g3 a3 b#3").slow(4)
+stack (
+  note("c3 d#3 d3 ~ d#3 ~ [d3]/2 c3 d#3 d3 ~ d#3 ~ [d3]*2 c3 [d3]*2 d3 ~ d#3 ~ [d3]/2").slow(4),
+  note("<[c2,d#2,g2] [d#2,g2,b2] [c2,d#2,g2]>").slow(3)
+)
