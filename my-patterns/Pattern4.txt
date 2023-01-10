@@ -1,0 +1,8 @@
+// Pattern4 Sigga
+//note("c3 d3 e3 f3 g3 a3 b#3").slow(4)     ~ [d3]/2 c3 d#3 d3 ~ d#3 ~ [d3]*2 c3 [d3]*2 d3 ~ d#3 ~ [d3]/2"
+stack (
+  //note("c3 d#3 [e3]*2 f#3 [g#3 a3]*2 b3 c3 [d#3]*2 e3 f#3 g#3 a3 [b3]*4 ").slow(8).bandf("<2000 4000 8000>"),
+  note("<[c1 d#1 e1] [d#1 e1 g#1]>").slow(3).coarse("<1 4 8>").resonance("<0 10 20 30>"),
+  note("c3 [e3]*2 d#3 f#3 c3 [d#3]*2 a3").slow(3).bandf("<2000 4000 8000>").s("triangle"),
+  s("bd [hh]*2 sd hh").cutoff("<4000 2000 1000 500>")
+)
