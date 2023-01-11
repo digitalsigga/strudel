@@ -1,0 +1,6 @@
+// Pattern5 Sigga
+
+//note("c3 d3 e3 f3 g3 a3 b#3").slow(4) 
+polymeterSteps(1, ["c3 e#3 g3 d3 d#3*2"]).slow(2).hcutoff("<100>")
+.note().stack(s("bd hh*2").crush("<6 8 12>").hcutoff("<800 100>")
+)
